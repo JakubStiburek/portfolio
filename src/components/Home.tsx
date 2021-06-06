@@ -4,7 +4,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <div className="Header-wrapper">
+      <div className="header-wrapper">
         <span className="dot"/>
         <Header size={1} text="Jakub Stiburek"/>
       </div>
