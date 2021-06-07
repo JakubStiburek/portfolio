@@ -4,6 +4,10 @@
   color: white;
 }
 
+.disclaimer {
+  background: white;
+  color: black;
+}
 a {
   text-decoration: none;
 }
