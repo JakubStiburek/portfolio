@@ -3,12 +3,12 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <div className="header-wrapper">
+    <div className="wrapper">
+      <div>
         <span className="dot"/>
         <Header size={1} text="Jakub Stiburek"/>
       </div>
-      <div className="p-wrapper">
+      <div>
         <p>
           ✋ Hi. I’m a self-taught frontend web developer based in <text className="highlight">Prague</text>.
           I like working with <text className="highlight">JavaScript</text>, <text className="highlight">TypeScript</text>, <text className="highlight">React</text> and <text className="highlight">Next.js</text>

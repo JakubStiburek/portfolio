@@ -12,24 +12,21 @@ a {
 }
 
 .header {
+  margin: unset;
   font-size: 72px;
 }
 
 .small-header {
+  margin-bottom: unset;
   font-size: 42px;
 }
 
 .smaller-header {
+  margin-bottom: unset;
   font-size: 39px;
 }
 
-.header-wrapper {
-  max-width: 287px;
-  margin: auto;
-  text-align: left;
-}
-
-.p-wrapper {
+.wrapper {
   max-width: 287px;
   margin: auto;
   text-align: left;
@@ -62,7 +59,7 @@ a {
 
 .dot {
   position: relative;
-  top: 180px;
+  top: 130px;
   left: 145px;
   height: 20px;
   width: 22px;
@@ -75,8 +72,47 @@ a {
   color: #CCDB74;
 }
 
+a.highlight:hover {
+  border-bottom: 3px dotted #CCDB74;
+}
+
 .icon {
   max-width: 50px;
+}
+
+.icon:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.dotted-divider {
+  display: block;
+  max-width: 300px;
+  height: 1px;
+  border: 0;
+  border-top: 3px dotted #CCDB74;
+  margin: 29px auto 29px auto;
+  padding: 0;
 }
 
 .fill-white path {
