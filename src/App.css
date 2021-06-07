@@ -39,20 +39,20 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
+  justify-items: center;
 }
 
 .grid-wrapper-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-
+  justify-items: center;
 }
 
 .grid-wrapper-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-
 }
 
 .icons-wrapper {
