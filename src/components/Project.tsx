@@ -1,14 +1,26 @@
 import Header from "./Header";
 
-const Project = () => {
+interface ProjectProps {
+  title: string,
+  description: string,
+  stack: string[],
+  link: string,
+}
+
+const Project = ({ title, description, stack, link, }: ProjectProps ) => {
+  const listStack = () => {
+    return stack.map((s, index) => <li key={index} className="highlight">{s}</li>);
+  }
   return (
-    <div className="wrapper">
-      <Header size={2} text={"Projects:"} />
-      <div>
-        <p>Have a look at what kind of <text className="highlight">personal</text> or <text className="highlight">professional</text> projects I have worked on.</p>
-      </div>
+    <div>
+      <Header size={3} text={title} />
+      <p>{description}</p>
+      <ul className="project-stack flex">
+        {listStack()}
+      </ul>
+      <a href={link} className="highlight" >View the code</a>
     </div>
   )
-};
+}
 
 export default Project;

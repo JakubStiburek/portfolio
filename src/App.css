@@ -27,13 +27,26 @@ a {
 
 .smaller-header {
   margin-bottom: unset;
-  font-size: 39px;
+  font-size: 25px;
+}
+
+.project-stack {
+  padding: unset;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
 }
 
 .wrapper {
   max-width: 287px;
   margin: auto;
   text-align: left;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
 }
 
 .grid-wrapper-4 {
