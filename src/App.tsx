@@ -13,6 +13,7 @@ function App() {
       <Stack />
       <hr className="dotted-divider"/>
       <Projects />
+      <hr className="dotted-divider"/>
     </div>
   );
 }

@@ -17,7 +17,7 @@ const Home = () => {
           This site serves as my portfolio and as a <text className="highlight">mobile first</text> development practice.
         </p>
         <p>
-          Browse through my projects, go visit my <a href="https://github.com/JakubStiburek" className="highlight">GitHub</a>, download my <a href="https://jakubstiburek.eu/download/cv.pdf" className="highlight">CV</a> or <a href= "mailto: stiburekj@seznam.cz" className="highlight">email</a> me.
+          Browse through my projects, go visit my <a href="https://github.com/JakubStiburek" className="highlight">GitHub</a>, download my <a href="https://drive.google.com/file/d/1-wX1YUuUvTQArcn_FNjvS1U_08JlYoPW/view?usp=sharing" className="highlight">CV</a> or <a href= "mailto: stiburekj@seznam.cz" className="highlight">email</a> me.
         </p>
         <p>
           Have a nice stay.

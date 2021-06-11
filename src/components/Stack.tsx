@@ -7,7 +7,7 @@ const Stack = () => {
     <div className="wrapper">
       <Header size={2} text="I work with:" />
       <StackIcons />
-      <Header size={3} text="I want to learn:" />
+      <Header size={2} text="Want to learn:" />
       <LearnIcons />
     </div>
   )
