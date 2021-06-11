@@ -4,7 +4,7 @@ interface ProjectProps {
   title: string,
   description: string,
   stack: string[],
-  link: string,
+  link?: string,
 }
 
 const Project = ({ title, description, stack, link, }: ProjectProps ) => {

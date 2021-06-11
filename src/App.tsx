@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Stack from "./components/Stack";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Jobs from "./components/JobTimeline";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <hr className="dotted-divider"/>
       <h1 className="disclaimer">WEBSITE UNDER CONSTRUCTION</h1>
       <Stack />
+      <hr className="dotted-divider"/>
+      <Jobs />
       <hr className="dotted-divider"/>
       <Projects />
       <hr className="dotted-divider"/>

@@ -145,6 +145,25 @@ a.highlight:hover {
   fill: white;
 }
 
+.timeline {
+  height: max-content;
+  border-left: 3px solid #CCDB74;
+  padding-left: 15px;
+}
+
+.timeline-dot {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 53px;
+  left: -26px;
+  height: 20px;
+  width: 20px;
+  background-color: #CCDB74;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /*@media screen (min-width) {*/
 
 /*}*/
