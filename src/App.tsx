@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./components/Home";
 import Stack from "./components/Stack";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <hr className="dotted-divider"/>
       <Projects />
       <hr className="dotted-divider"/>
+      <Footer />
     </div>
   );
 }

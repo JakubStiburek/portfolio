@@ -38,6 +38,15 @@ a {
   align-content: flex-start;
 }
 
+.footer-list {
+  padding: unset;
+  list-style: none;
+}
+
+.footer-list li {
+  padding-top: 3px;
+}
+
 .wrapper {
   max-width: 287px;
   margin: auto;
