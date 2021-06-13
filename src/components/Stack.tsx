@@ -4,7 +4,7 @@ import LearnIcons from "./LearnIcons";
 
 const Stack = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper stack">
       <Header size={2} text="I work with:" />
       <StackIcons />
       <Header size={2} text="Want to learn:" />

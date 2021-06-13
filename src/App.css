@@ -164,6 +164,22 @@ a.highlight:hover {
   display: inline-block;
 }
 
-/*@media screen (min-width) {*/
-
-/*}*/
+@media screen and ( min-width: 768px ) {
+  .wrapper {
+    max-width: 700px;
+    justify-items: left;
+  }
+  .project-stack {
+    max-width: 287px;
+  }
+  .dotted-divider {
+    max-width: 700px;
+  }
+  .stack {
+    text-align: center;
+  }
+  .dot {
+    top: 35px;
+    left: 358px;
+  }
+}
