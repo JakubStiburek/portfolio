@@ -172,6 +172,9 @@ a.highlight:hover {
   .dotted-divider {
     max-width: 700px;
   }
+  .project-stack {
+    max-width: 287px;
+  }
   .dot {
     top: 35px;
     left: 358px;
