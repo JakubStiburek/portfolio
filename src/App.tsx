@@ -12,9 +12,7 @@ function App() {
       <Home/>
       <hr className="dotted-divider"/>
       {/*<h1 className="disclaimer">WEBSITE UNDER CONSTRUCTION</h1>*/}
-      <div className="stack-wrapper">
-        <Stack />
-      </div>
+      <Stack />
       <hr className="dotted-divider"/>
       <Jobs />
       <hr className="dotted-divider"/>
