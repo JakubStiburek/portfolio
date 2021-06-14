@@ -15,7 +15,7 @@ const Project = ({ title, description, stack, link, }: ProjectProps ) => {
     <div>
       <Header size={3} text={title} />
       <p>{description}</p>
-      <ul className="project-stack flex">
+      <ul className="wrapper-project-stack wrapper-flex">
         {listStack()}
       </ul>
       <a href={link} className="highlight" >View the code</a>
