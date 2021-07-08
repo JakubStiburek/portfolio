@@ -8,7 +8,7 @@ const JobTimeline = () => {
         <Header size={2} text="Experience:" />
         <div>
           <span className="timeline-dot">III</span>
-          <Job title="Your company" description="I'm currently looking for a Junior position as a FE developer. I'm driven by passion because I have learnt to do all of this by myself, so if you are looking for someone like me - you have found me." />
+          <Job title="ServiceNow Consultant at Guide Vision" description="I'm currently working at a Prague based company - Guide Vision - where I develop applications on the SaaS platform ServiceNow." />
         </div>
         <div>
           <span className="timeline-dot">II</span>
