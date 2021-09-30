@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Home from "./components/Home";
-import Stack from "./components/Stack";
-import Projects from "./components/Projects";
+// import Stack from "./components/Stack";
+// import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Jobs from "./components/JobTimeline";
-import Header from "./components/Header";
+// import Jobs from "./components/JobTimeline";
+// import Header from "./components/Header";
 
 function App() {
   return (
